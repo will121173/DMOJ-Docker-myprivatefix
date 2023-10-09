@@ -1,0 +1,7 @@
+archive: riddle1.zip
+checker: standard
+test_cases:
+- batched:
+  - in: 1.in
+    out: 1.out
+  points: 2

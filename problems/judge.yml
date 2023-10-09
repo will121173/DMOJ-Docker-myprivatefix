@@ -1,0 +1,83 @@
+# This is the same ID you specified in the judge admin panel
+id: ExampleJudge
+# The key this judge will use to authenticate with the site server, generated from the admin panel
+key: "-t_qBN}_zr@WF_O(j>A]9:JR,-]@FMPN38(9Y:CDD]`ZT.|dYdH03q#;cN8?5s(gvu0LeSBMy3cc;06)pF)<nX]C=.Us^{#7w!9:"
+# Where to look for problems on the local filesystem.
+# This directory /not/ scanned recursively, and any directory containing an init.yml file is assumed to
+# be a problem directory.
+problem_storage_root:
+  - /home/judge/problems
+# All configuration for language executors
+# If you're unsure of what values a language needs, your best bet is to consult the source of the executor:
+# <https://github.com/DMOJ/judge/tree/master/dmoj/executors>
+runtime:
+  awk: /usr/bin/awk
+  bash: /bin/bash
+  cargo: /home/judge/.cargo/bin/cargo
+  cat: /usr/bin/cat # text
+  ccl: /opt/ccl/lx86cl
+  chicken-csc: /usr/bin/chicken-csc
+  clang: /usr/bin/clang
+  clang++: /usr/bin/clang++
+  cobc: /usr/bin/cobc # COBOL
+  dart: /opt/dart-sdk/bin/dart
+  dmd: /usr/bin/dmd # D
+  erl: /usr/bin/erl # Erlang
+  erlc: /usr/bin/erlc
+  fpc: /usr/bin/fpc # pascal
+  fsharpc: /usr/bin/fsharpc
+  g++: /usr/bin/g++
+  g++20: /usr/bin/g++
+  gcc: /usr/bin/gcc
+  gcc11: /usr/bin/gcc
+  gforth: /usr/bin/gforth
+  gfortran: /usr/bin/gfortran
+  ghc: /usr/bin/ghc # haskell
+  gnatmake: /usr/bin/gnatmake # Ada
+  gnustep-config: /usr/bin/gnustep-config
+  go: /usr/bin/go
+  gobjc: /usr/bin/gcc
+  groovy_vm: /opt/groovy/bin/groovy
+  groovyc: /opt/groovy/bin/groovyc
+  ick: /usr/bin/ick
+  java: /usr/bin/java
+  java17: /usr/bin/java
+  javac: /usr/bin/javac
+  javac17: /usr/bin/javac
+  kotlin_vm: /opt/kotlin/bin/kotlin
+  kotlinc: /opt/kotlin/bin/kotlinc
+  ld: /usr/bin/ld
+  lean: /opt/lean/bin/lean
+  lua: /usr/bin/lua
+  mono-csc: /usr/bin/mono-csc
+  mono-vbnc: /usr/bin/vbnc
+  mono: /usr/bin/mono
+  nasm: /usr/bin/nasm
+  node: /usr/bin/node
+  ocamlfind: /home/judge/.opam/default/bin/ocamlfind
+  perl: /usr/bin/perl
+  php: /usr/bin/php
+  phpconfdir: /etc/php5/
+  pike: /usr/bin/pike
+  pypy3: /opt/pypy3/bin/pypy
+  pypy3dir: /opt/pypy3/
+  python3: /usr/bin/python3
+  racket-lib: /opt/racket/lib
+  racket: /usr/bin/racket
+  raco: /usr/bin/raco # racket
+  ruby: /usr/bin/ruby
+  ruby3.0: /usr/bin/ruby
+  sbcl: /usr/bin/sbcl # Steel Bank Common Lisp
+  scala_vm: /usr/bin/scala
+  scalac: /usr/bin/scalac
+  sed: /bin/sed
+  swiftc: /opt/swift/usr/bin/swiftc
+  swipl: /usr/bin/swipl # prolog
+  tclsh: /usr/bin/tclsh # Tcl
+  tprolog: /opt/tprolog/tprolog
+  tprologc: /opt/tprolog/tprologc
+  turing_dir: /opt/tprolog/tprolog
+  zig: /opt/zig/zig
+  # Custom V8 build to facilitate online judging: https://github.com/DMOJ/v8dmoj
+  v8dmoj: /usr/bin/v8dmoj
+
