@@ -112,6 +112,6 @@ http://127.0.0.1:8080/admin
 
 
 ```
-docker cp readme.md site:/etc/test.txt
+docker cp readme.md web:/etc/test.txt
 ```
 

@@ -164,3 +164,4 @@ cython_debug/
 .docker_temp_*
 mysql-data/
 redis-data/
+_bak/
