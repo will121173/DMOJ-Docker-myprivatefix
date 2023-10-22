@@ -165,3 +165,4 @@ cython_debug/
 mysql-data/
 redis-data/
 _bak/
+image_*.tar
